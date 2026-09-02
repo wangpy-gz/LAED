@@ -1,0 +1,16 @@
+# Recorded experiment runtime: Python 3.11
+#
+# Core dependencies for the LAED DeepSeek full-workflow runner
+# (pythonProject1/main_code/run_laed_deepseek_v4.py).
+dashscope==1.14.0
+numpy==2.1.1
+openai==1.58.1
+pandas==2.2.2
+requests==2.28.0
+openai==1.58.1
+
+# Optional SDKs used only by the additional provider-wrapper modules in
+# pythonProject1/API_invocation/. They are not required to invoke DeepSeek.
+google-generativeai==0.8.0
+groq==0.11.0
+zhipuai==2.0.1
