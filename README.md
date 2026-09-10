@@ -310,11 +310,11 @@ from archived results.
 ### Strict ablation experiments
 
 After configuring `DASHSCOPE_API_KEY`, the default formal command runs three
-strict configurations over five datasets for two rounds:
+strict configurations over five datasets for three rounds:
 
 ```powershell
 python main_code\run_laed_strict_ablations.py `
-  --rounds 2 `
+  --rounds 3 `
   --output-root .\Run_Results_Ablation_Reproduction
 ```
 
@@ -324,7 +324,7 @@ datasets and configurations:
 ```powershell
 python main_code\run_laed_strict_ablations.py `
   --run-smoke-gate `
-  --rounds 2 `
+  --rounds 3 `
   --smoke-output-root .\Run_Results_Ablation_Smoke `
   --output-root .\Run_Results_Ablation_Reproduction
 ```
